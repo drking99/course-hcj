@@ -7,11 +7,14 @@ h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  text-shadow: 2px 2px 5px #bbb;
+  text-shadow: 2px 2px 5px #bbb; 
+  font-size: 175%;
 }
 
 .row {
   width: 100%;
+     margin: 0;
+    padding: 10px;
 }
 
 .section {
@@ -19,7 +22,9 @@ h2 {
   background-color: lightgrey;
   border: 1px solid black;
   position: relative;
-  /*margin-bottom: 0px;*/
+  overflow: hidden;
+  clear:both;
+  float: left;
 }
 
 .heading {
@@ -31,6 +36,9 @@ h2 {
   position: absolute;
   right: -1px;
   top:-1px;
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 125%;
 }
 
 #p1 {
