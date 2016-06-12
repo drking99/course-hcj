@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#header-nav {
+  background-color: #61122f;
+  border-radius: 0;
+  border:0;
+  height: 50px;
+}
+.navbar-brand h1{
+  color: #FFFFFF;
+  font-family: 'Oxygen', sans-serif;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  font-size: 1.75em;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+div h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px #bbb; 
+  font-size: 1.5em;
+}
+
+#collapsable-nav li{
+  text-align: center;
+}
+
+section {
+  margin: 10px;
+  background-color: lightgrey;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  clear:both;
+  float: left;
+}
+
+#title h3{
+  text-align: center;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.description{
+  clear: both;
+  padding: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+}
+
+
+#nav-list{
+  background-color: #edc4c4;
+  margin-top: 0px;
+}
+
+#nav-list a{
+  border-style: solid;
+  border-color: #61122f;
+  border-width: 0px 0px 1px 0px;
+  color: black;
+}
+
+
+#nav-list a:hover{
+  background-color: #E7E7E7;
+}
